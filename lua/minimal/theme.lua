@@ -176,7 +176,7 @@ M.plugins = {
     -----------------------------------------
     --   Buffer:
     -----------------------------------------
-    BufferCurrent        = { fg = colors.fg, bg = colors.gray },
+    BufferCurrent        = { fg = colors.fg, bg = colors.bg },
     BufferCurrentIndex   = { fg = colors.fg, bg = colors.bg },
     BufferCurrentMod     = { fg = colors.yellow, bg = colors.bg },
     BufferCurrentSign    = { fg = colors.blue_type, bg = colors.bg },
@@ -608,7 +608,6 @@ M.plugins = {
     TSVariableBuiltin    = { fg = colors.pink },
     TSDefine             = { fg = colors.red_key_w },
     -----------------------------------------
-
 }
 
 return M
